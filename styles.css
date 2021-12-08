@@ -46,17 +46,23 @@ body
 .heading
 {
   color:white;
-  padding:11% 9% 0 9%;
+  /* padding:11% 9% 0 9%; */
+  /* padding:5% 15% 0 15%; */
+  /* padding:5% 0 0 5%; */
+  text-align: center;
+  padding-top:8%;
   font-weight: 900;
-  font-size:4.5rem;
-  line-height: 1.5;
+  font-size:5rem;
+  /* line-height: 1.5; */
+  margin:0;
 }
 
 .join_us
 {
   font-weight:900;
   font-size:1.5rem;
-  padding:3% 0 0 7%;
+  text-align: center;
+  padding-top: 3%;
 }
 
 .heading-span
@@ -66,9 +72,13 @@ body
 .rounded_button
 {
   border-radius: 50px;
-  padding:2% 10%;
-  margin-left: 30%;
-  margin-top:5%;
+  /* padding:2% 10%; */
+  padding:2% 5%;
+  margin:3%;
+  /* width: 100%;
+  margin: 0 auto; */
+  align-content: center;
+
 }
 
 .button-text
