@@ -10,7 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <title>Plank</title>
-  <link rel="icon" href="favicon.png">
+  <link rel="icon" href="images/favicon.png">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,20 +21,20 @@
   <section id = "part1">
     <div class = "container-fluid">
     <nav class = "navbar navbar-expand-lg navbar-dark navbar-custom">
-      <a class = "navbar-brand" href = ""><img class = "navbar-logo" src = "Original.svg" alt = "plank-logo" /></a>
+      <a class = "navbar-brand" href = ""><img class = "navbar-logo" src = "images/Original.svg" alt = "plank-logo" /></a>
       <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarSupportedContent" aria-controls = "navbarSupportedContent" aria-expanded = "false" aria-label = "Toggle navigation">
       <span class = "navbar-toggler-icon"></span>
         </button>
         <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
           <ul class= "navbar-nav ml-auto">
             <li class = "nav-item">
-                <a class = "nav-link" href = "">get funded</a>
+                <a class = "nav-link navbar-links" href = "">get funded</a>
             </li>
             <!-- <li class = "nav-item">
               <a class = "nav-link" href = "">pricing</a>
             </li> -->
             <li class = "nav-item">
-                <a class = "nav-link" href = "">invest in startups</a>
+                <a class = "nav-link navbar-links" href = "">invest in startups</a>
             </li>
           </ul>
         </div>
@@ -44,11 +44,23 @@
     <h1 class = "heading">invest in early stage startups.</h1>
 
 
-    <h2 class = "join_us">join 100K+ investors who get benefits of massive growth daily</h2>
+    <h2 class = "join_us">become one of the first users of our application and provide feedback </h2>
 
-    <center><button type = "button" class = "rounded_button btn btn-light btn-lg">
+    <center>
+      <!-- <button type = "button" class = "rounded_button btn btn-light btn-lg">
       <p class = "button-text">Download PLANK</p>
-    </button></center></div>
+    </button> -->
+    <form class = "form-plank">
+      <div class="form-group">
+        <!-- <label for="exampleInputEmail1">Email Address</label> -->
+        <input type = "email" class = "form-control input-form" id = "exampleInputEmail1" aria-describedby = "emailHelp" placeholder = "Enter Email">
+        <small id = "emailHelp" class = "form-text text-muted input-form">We'll never share your email with anyone else.</small>
+      </div>
+
+
+      <button type = "submit" class = "btn btn-light btn-lg rounded_button"><p class = "button-text">Submit</p></button>
+    </form>
+  </center></div>
 
   </section>
 
